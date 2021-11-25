@@ -8,4 +8,4 @@ for($i=0; $i<=$n; $i++){
   
 }
 $count = substr_count($k,(string)$d);
-echo $count;
+return $count;
