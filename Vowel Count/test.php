@@ -10,6 +10,4 @@ $b=str_split($str);
       $vowelsCount++;
     }
   }
-  
-  
-  echo $vowelsCount;
+return $vowelsCount;
