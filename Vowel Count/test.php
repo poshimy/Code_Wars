@@ -1,13 +1,11 @@
 
 <?php
-$str="abracadabra";
-$b=str_split($str);
   $vowelsCount = 0;
-  
+  $b=str_split($str);
   $ar=['a','e','i','o','u'];
-  foreach($b as $size=>$var){
+  foreach($b as $size => $var){
     if(in_array($var,$ar)){
       $vowelsCount++;
     }
+  } return $vowelsCount;
   }
-return $vowelsCount;
