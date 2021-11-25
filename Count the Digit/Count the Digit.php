@@ -1,11 +1,9 @@
 
 <?php
-$n = 5;
-$d = 9;
-$k = '';
-for($i=0; $i<=$n; $i++){
+    $k='';
+  for($i=0;$i<=$n;$i++){
     $k .= (string)$i**2;
-  
+  }
+  $str = substr_count($k,(string)$d);
+  return $str;
 }
-$count = substr_count($k,(string)$d);
-return $count;
