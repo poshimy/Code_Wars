@@ -1,3 +1,6 @@
+# [Number of People in the Bus](https://www.codewars.com/kata/5648b12ce68d9daa6b000099)
+
+
 There is a bus moving in the city, and it takes and drop some people in each bus stop.
 
 You are provided with a list (or array) of integer pairs. Elements of each pair represent number of people get into bus (The first item) and number of people get off the bus (The second item) in a bus stop.
